@@ -1,0 +1,11 @@
+
+<web-app> 
+<servlet>
+<servlet-name>hop</servlet-name>
+<jsp-file>/WEB-INF/DirectiveDemos.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+<servlet-name>hop</servlet-name>
+<url-pattern>/mee</url-pattern>
+</servlet-mapping>
+</web-app>
