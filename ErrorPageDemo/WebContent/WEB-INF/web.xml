@@ -1,0 +1,16 @@
+
+<web-app>
+<error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/Errorpage.jsp</location>
+</error-page>
+<servlet>
+<servlet-name>d3o</servlet-name>
+<jsp-file>/WEB-INF/home.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>d3o</servlet-name>
+<url-pattern>/gamee</url-pattern>
+</servlet-mapping>
+</web-app>
